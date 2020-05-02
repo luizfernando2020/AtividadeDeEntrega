@@ -1,6 +1,6 @@
 div{
     width: 100%;
-    height: 300px;
+    height: 350px;
     color: white;
     margin: 0;
     padding: 0;
@@ -56,6 +56,7 @@ div{
 #descricao{
     margin-left: 200px;
     color: black;
+    font-weight: bold;
 }
 
 #tableMenu{
@@ -83,7 +84,7 @@ div{
     height: 70px;
 }
 #footerLink{
-    padding-left: 25px;
+    padding-left: 50px;
 }
 a {
     color: white;

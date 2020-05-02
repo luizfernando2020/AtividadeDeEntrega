@@ -23,12 +23,13 @@ div{
     float: left;
     background-color: #454745;
     text-align: center;  
-    height: 1485px;
+    color: white;
 }
 .principal{
     float: right;
     width: 85%;
     background-color: #9B9E9B; 
+    margin-bottom: 25px;
 }
 
 #tableMenu{
@@ -57,3 +58,16 @@ div.linkCompra{
 img{
     width: 75px;
 }
+
+.footer{
+    padding-top: 25px;
+    clear: both;
+    background-color: #454745;
+    height: 70px;
+}
+#footerLink{
+    padding-left: 50px;
+}
+a {
+    color: white;
+   }
