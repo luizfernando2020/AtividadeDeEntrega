@@ -26,18 +26,23 @@ div {
     float: left;
     background-color: #454745;
     text-align: center;
+    height: 100%;
+    margin-bottom: 15px;
+   
 }
 
-#centro {
+.meio {
     margin-top: 15px;
-    margin-bottom: 15px;
+   
+    height: 250px;
 }
 
 .principal {
     float: right;
     width: 85%;
     background-color: #9B9E9B;
-    height: 350px;
+    height: 100%;
+    
 }
 
 #tableMenu {
@@ -51,6 +56,7 @@ div {
 }
 
 .footer {
+    padding-top: 50px;
     clear: both;
     background-color: #454745;
     height: 70px;
