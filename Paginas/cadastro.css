@@ -32,7 +32,6 @@ div {
 
 .meio{
     margin-top: 15px;
-   
     height: 250px;
 }
 
@@ -69,8 +68,18 @@ a {
     color: white;
 }
 
-.form {
+.form1 {
+    width: 40%;
+    float: left;
     margin-left: 15px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+}
+.form2{
+    width: 40%;
+    float: right;
+    margin-left: 50px;
     padding: 5px;
     color: black;
     font-weight: bold;
@@ -87,11 +96,6 @@ input, textarea {
     color: white;
     padding-left: 25px;
     padding-right: 25px;
-    margin-left: 50px;
     margin-top: 15px;
 }
 
-.outra{
-    float: right;
-    color: aqua;
-}

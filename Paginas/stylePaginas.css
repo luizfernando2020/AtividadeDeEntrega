@@ -45,6 +45,9 @@ p{
     background-color: #9B9E9B; 
     height: 100%;
 }
+#inicio{
+    color: black;
+}
 
 #tableMenu{
     padding-left: 25px;
