@@ -79,6 +79,7 @@ div{
 }
 
 .footer{
+    padding-top: 50px;
     clear: both;
     background-color: #454745;
     height: 70px;
