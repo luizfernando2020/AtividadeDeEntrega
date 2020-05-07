@@ -1,0 +1,73 @@
+div{
+    width: 100%;
+
+}
+.topo{
+    height: 80px;
+    padding: 0;
+    margin: 0;
+}
+#title{
+    margin:0;
+    background-color: #808080;
+    text-align: center;
+    font-size: 25px;
+    height: 50px;
+    padding-top: 15px;
+}
+#text{
+   padding: 15px;
+}
+.menu{
+    width: 15%;
+    float: left;
+    background-color: #454745;
+    text-align: center;  
+    color: white;
+}
+.principal{
+    float: right;
+    width: 85%;
+    background-color: #9B9E9B; 
+    margin-bottom: 25px;
+}
+
+#tableMenu{
+    padding-left: 25px;
+    padding-right: 50px;
+    border: solid 1px black;
+}
+#tableMenuPrincipal{
+    margin-left: 35px;
+}
+
+div.linkCompra{
+    margin-left: 200px;
+    width: 150px;
+	display: inline-block;  
+}
+
+#imgBanner{
+    margin-left: 280px;
+    width: 600px;
+}
+
+#topo{
+    width: 50px;
+}
+img{
+    width: 75px;
+}
+
+.footer{
+    padding-top: 25px;
+    clear: both;
+    background-color: #454745;
+    height: 70px;
+}
+#footerLink{
+    padding-left: 50px;
+}
+a {
+    color: white;
+   }
