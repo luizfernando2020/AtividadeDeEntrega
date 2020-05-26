@@ -8,6 +8,7 @@ h2{
     padding-bottom: 25px;
     margin-left: 25%;
 }
+<<<<<<< HEAD
 .footer{
     background-color: #454745;
     color: white;
@@ -18,6 +19,32 @@ a{
 #icon{
     padding-left: 5px;
 }
+=======
+
+#tablePrincipal{
+    margin-left: 22%;
+    color: white;
+    background-color: #3e444a;
+    width: 800px;
+}
+
+#descricao{
+    margin-left: 40%;
+    color: black;
+    font-weight: bold;
+}
+.footer{
+    background-color: #454745;
+    height: px;
+    color: white;
+}
+a{
+    color: white;
+}
+#icon{
+    padding-left: 5px;
+}
+>>>>>>> e56e815e0db51f01a45e7da0a9192e54dff7cec3
 .nav{
     color: #3e444a;
 }
@@ -41,8 +68,13 @@ form{
 }
 
 img{
+<<<<<<< HEAD
     width: 200px;
     padding-top: 2px;
+=======
+    width: 50px;
+    height: 50px;
+>>>>>>> e56e815e0db51f01a45e7da0a9192e54dff7cec3
 }
 
 .conteudo{
@@ -53,9 +85,15 @@ img{
     width: 30%;
 }
 
+<<<<<<< HEAD
 #link{
     width: 50px;
     height: 50px;
     margin-left: 25px;
     margin-right: 25px;
 }
+=======
+.imagem{
+    width: 25%;
+}
+>>>>>>> e56e815e0db51f01a45e7da0a9192e54dff7cec3
