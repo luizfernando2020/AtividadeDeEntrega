@@ -12,6 +12,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+
+
     <script src="js/functions.js"></script>
 </head>
 
@@ -89,7 +94,7 @@
                 </div>
                 <div class="col">
                     <label class="control-label" for="email">Email</label>
-                    <input type="email"  class="form-control" placeholder="seuemail@emal.com">
+                    <input type="email"  class="form-control"  onblur="autenticarEmail()" placeholder="seuemail@emal.com">
                 </div>
             </div>
             <div class="row">
