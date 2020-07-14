@@ -12,6 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
+    <script src="js/functions.js"></script>
 </head>
 
 <body>
@@ -48,6 +49,8 @@
 
         </div>
     </nav>
+
+
     <div>
         <form>
             <div class="row">
@@ -66,81 +69,83 @@
                     <input type="text" class="form-control" placeholder="dd/mm/aaaa">
                 </div>
                 <div class="col form-check form-check-inline">
-                    <div >
+                    <div>
                         <h6>Sexo: </h6>
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"                            value="option1">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                            value="option1">
                         <label class="form-check-label" for="inlineRadio1">Feminino</label>
 
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"                            value="option2">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                            value="option2">
                         <label class="form-check-label" for="inlineRadio2">Masculino</label>
                     </div>
                 </div>
             </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <label class="control-label" for="fname">Telefone:</label>
-            <input type="text" class="form-control" placeholder="(xx) xxxx-xxxx">
-        </div>
-        <div class="col">
-            <label class="control-label" for="fname">Email</label>
-            <input type="text" class="form-control" placeholder="seuemail@emal.com">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <label class="control-label" for="fname">Endereço:</label>
-            <input type="text" class="form-control">
-        </div>
+            <div class="row">
+                <div class="col">
+                    <label class="control-label" for="fname">Telefone:</label>
+                    <input type="text" id="phone" class="form-control" placeholder="(xx) xxxx-xxxx">
+                    <h6>Informe apenas numeros</h6>
+                </div>
+                <div class="col">
+                    <label class="control-label" for="email">Email</label>
+                    <input type="email"  class="form-control" placeholder="seuemail@emal.com">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label class="control-label" for="fname">Endereço:</label>
+                    <input type="text" class="form-control">
+                </div>
 
-    </div>
-    <div class="row">
-        <div class="col">
-            <label class="control-label"" for=" fname">Número:</label>
-            <input type="text" class="form-control">
-        </div>
-        <div class="col">
-            <label class="control-label" for="fname">Estado</label>
-            <select class="form-control">
-                <option value="AC">Acre</option>
-                <option value="AL">Alagoas</option>
-                <option value="AP">Amapá</option>
-                <option value="AM">Amazonas</option>
-                <option value="BA">Bahia</option>
-                <option value="CE">Ceará</option>
-                <option value="DF">Distrito Federal</option>
-                <option value="ES">Espírito Santo</option>
-                <option value="GO">Goiás</option>
-                <option value="MA">Maranhão</option>
-                <option value="MT">Mato Grosso</option>
-                <option value="MS">Mato Grosso do Sul</option>
-                <option value="MG">Minas Gerais</option>
-                <option value="PA">Pará</option>
-                <option value="PB">Paraíba</option>
-                <option value="PR">Paraná</option>
-                <option value="PE">Pernambuco</option>
-                <option value="PI">Piauí</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="RN">Rio Grande do Norte</option>
-                <option value="RS">Rio Grande do Sul</option>
-                <option value="RO">Rondônia</option>
-                <option value="RR">Roraima</option>
-                <option value="SC">Santa Catarina</option>
-                <option value="SP">São Paulo</option>
-                <option value="SE">Sergipe</option>
-                <option value="TO">Tocantins</option>
-            </select>
-        </div>
-    </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label class="control-label"" for=" fname">Número:</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col">
+                    <label class="control-label" for="fname">Estado</label>
+                    <select class="form-control">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="submit" class="form-control btn btn-primary ">Enviar</button>
 
-    <div class="row">
-        <div class="col">
-            <button type="submit" class="form-control btn btn-primary ">Enviar</button>
-
-        </div>
+                </div>
 
         </form>
     </div>
+
 
 
     <div>
